@@ -1,0 +1,11 @@
+.pe-pointer {
+    cursor: pointer !important;
+}
+
+.dropdown-menu {
+    &.active {
+        transform: translateY(0px);
+        opacity: 1;
+        display: block !important;
+    }
+}
